@@ -1,0 +1,60 @@
+body{
+    background: #a5d2ec;
+}
+
+h1{
+    font-size: 20px;
+}
+
+
+h2{
+    font-size: 50px;
+}
+
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px; 
+}
+
+.navbar{
+    padding: 30px;
+    background: rgb(227, 255, 255);
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+#nav-select {
+        visibility: visible;
+        margin-left: 600px;
+      }
+  
+  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+  @media (max-width: 600px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+}
